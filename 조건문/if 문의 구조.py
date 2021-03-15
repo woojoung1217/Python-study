@@ -4,7 +4,11 @@
 if True:
     print('참 입니다')
 
-score =90
+
+
+score=90
 
 if score >80:
         print('합격입니다')
+
+        
