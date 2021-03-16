@@ -10,7 +10,7 @@ if score < 80:
 else:
     print("합격 입니다")    
 
-score =90
+score = 81
 
 if 80<score<=100:
     print("학점은 A 입니다")
@@ -20,3 +20,4 @@ elif 50<score<=70:
     print("학점은 C 입니다")
 else:  
     print("학점은 D 입니다")
+
