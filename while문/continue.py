@@ -7,3 +7,4 @@ while count < 3:
     if count ==2:
         continue
     print(count)
+
