@@ -16,3 +16,4 @@ print('주문상황:',order)
 del order['스페이드1']
 
 print('주문상황:',order)
+
