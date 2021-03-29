@@ -6,6 +6,5 @@ clover = {'나이':'27','이름':'윤우중','직업':'학생'} #클로버 딕�
 print(clover)
 
 del clover['나이'] 
-clover['나이']='24'
 
 print(clover)
