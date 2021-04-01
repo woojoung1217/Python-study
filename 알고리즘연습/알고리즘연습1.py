@@ -1,26 +1,17 @@
-<<<<<<< HEAD
-#파이선 알고리즘 연습 1부터10까지의 연산을 구하는 알고리즘 결과 값은 : 55 
-n=10
-s=0
-for i in range(1,n+1):
-    s=s+i
-print(s) 
+#알고리즘 연습 소수를 구하는 방법 
+#1~100 까지의 소수를 구한다
 
-#2번째 방법
 
-for i in range(1,n+1):
-    s*(s+i) /2
-=======
-#파이선 알고리즘 연습 1부터10까지의 연산을 구하는 알고리즘 결과 값은 : 55 
-n=10
-s=0
-for i in range(1,n+1):
-    s=s+i
-print(s) 
+n=100
 
-#2번째 방법
+def is_Prime(a):
+  if(a<2):
+    return False
+  for i in range(2,a):
+    if(a%i==0):
+      return False
+  return True
 
-for i in range(1,n+1):
-    s*(s+i) /2
->>>>>>> d4fa50308a94a27f9886fb22e01c0715eafcb5cc
-print(s)
+for i in range(n+1):
+  if(is_Prime(i)):
+    print(i)
