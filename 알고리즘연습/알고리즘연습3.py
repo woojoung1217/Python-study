@@ -1,7 +1,7 @@
 # 난수를 생성하여 UP & DOWN 게임
 from random import *
 
-random_num = randint(1,100) # 1부터10사이에 난수
+random_num = randint(1,100) # 1부터100사이에 난수
 
 
 while True:
