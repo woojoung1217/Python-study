@@ -11,4 +11,4 @@ for age in ages:
         total_price=total_price+5000
     else:
         total_price=total_price+2500
-print("총 입장료는",total_price,"원 입니다")
+print("총 입장료는",total_price,"원 입니다!")
