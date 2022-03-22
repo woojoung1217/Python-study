@@ -7,6 +7,6 @@ Python 의 기본구조와 자료형 , 메소드에 대해 공부
 
 
 - django study 
-C1 c2
+C1 c2 c3
 ```
 
